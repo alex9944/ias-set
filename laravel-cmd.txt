@@ -1,0 +1,13 @@
+https://203.187.247.22:3699/svn/wifinprojects/trunk/projects/indiameurals/php
+
+
+composer dump-autoload	
+php artisan cache:clear	
+php artisan view:clear	
+php artisan route:clear	
+php artisan config:cache	
+
+php artisan clear-compiled 
+composer dump-autoload
+php artisan optimize
+php artisan key:generate
